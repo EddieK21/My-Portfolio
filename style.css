@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #CCC4AB;
+    font-size:20px;
+}
+
+.profile-card{ 
+    width: 80%;
+    margin: 100px auto;
+}
+
+.container{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container h2{
+    font-family: "Irish Grover"
+}
+
+.container img {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+}
+
+.container p{ 
+    font-size: 30px;
+}
+.container p span {
+    font-family: "Irish Grover"
+}
+
+.bio {
+    margin: 60px 0;
+
+}
+
+.about-me{
+        width: 60%;
+        margin: 100px auto;   
+}
+
+.about-me h3{
+    font-size: 30px;
+    align-items: center;
+    margin-left: 400px;
+    font-family: "Irish Grover"
+}
+
+.about-me p {
+    width: 60%;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Actor", sans-serif;
+    font-weight: lighter;
+    
+}
+
+.skills {
+    width: 80%;
+    margin: 100px auto;   
+    
+    
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.group h3 {
+    margin-left: auto;
+    font-family: "Actor", sans-serif;
+}
+
+.group ul {
+    margin-top: 30px;
+    margin-right: 60px;
+    font-size: 20px;
+}
